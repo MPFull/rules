@@ -67,6 +67,13 @@ Date.prototype.Format = function (fmt) { //author: meizz
     if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
   return fmt;
 }
+
+var starttime = (new Date()).getTime();  	// 阻塞3s
+while((new Date()).getTime() - starttime < 3000) {
+        continue;
+}
+console.log(`脚本延迟启动时间 ${(new Date()).Format("yyyy-MM-dd hh:mm:ss | S")}`);
+
 !(async () => {
   if (!cookiesArr[0]) {
     $.msg('【京东账号一】宠汪汪积分兑换奖品失败', '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
@@ -89,13 +96,7 @@ Date.prototype.Format = function (fmt) { //author: meizz
         continue
       }
       //console.log(`本地时间与京东服务器时间差(毫秒)：${await get_diff_time()}`);
-      console.log(`脚本开始请求时间 ${(new Date()).Format("yyyy-MM-dd hh:mm:ss | S")}`);
-  
-      var starttime = (new Date()).getTime();  	// 阻塞2s
-       while((new Date()).getTime() - starttime < 2000) {
-        continue;
-       }
-      console.log(`脚本延迟启动时间 ${(new Date()).Format("yyyy-MM-dd hh:mm:ss | S")}`);
+      //console.log(`脚本开始请求时间 ${(new Date()).Format("yyyy-MM-dd hh:mm:ss | S")}`);
       await joyReward();
     }
   }
