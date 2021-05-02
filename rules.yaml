@@ -1,0 +1,70 @@
+# Apple
+ - DOMAIN,api.smoot.apple.cn,DIRECT
+# 缺货玩意
+ - DOMAIN-SUFFIX,nvidia.com,DIRECT
+# 威联通
+ - DOMAIN-SUFFIX,qnap.com,DIRECT
+# 爱奇艺海外版
+ - IP-CIDR,23.219.172.0/24,DIRECT
+ - IP-CIDR,104.88.70.0/24,DIRECT
+# 海外点卡商城
+ - DOMAIN-SUFFIX,seagm.com,DIRECT
+# LOL
+ - DOMAIN,riotgames.com,DIRECT
+ 
+# TikTok
+# - DOMAIN-SUFFIX,tiktok.com,🇸🇬 狮城节点
+# 京东脚本更新
+ - DOMAIN-SUFFIX,azureedge.net,🇸🇬 狮城节点
+
+# netflix
+ - IP-CIDR,203.75.84.0/24,🎥 奈飞视频,no-resolve
+# - IP-CIDR,35.166.112.0/24,🎥 奈飞视频,no-resolve
+# - IP-CIDR,52.38.7.0/24,🎥 奈飞视频,no-resolve
+#查询你位置的网站
+ - DOMAIN-SUFFIX,api-ipv4.ip.sb,🎥 奈飞视频
+ - IP-CIDR,103.201.128.6/24,🎥 奈飞视频,no-resolve
+
+# disneyplus
+ - DOMAIN-SUFFIX,akamaiedge.net,🎥 迪士尼加
+ - DOMAIN-SUFFIX,dscw80.akamai.net,🎥 迪士尼加
+ - DOMAIN,d2v6pk9g6xon0p.cloudfront.net,🎥 迪士尼加
+ - DOMAIN,d3b55opm33rbhk.cloudfront.net,🎥 迪士尼加
+ - DOMAIN,d3vmyylqfq6t3e.cloudfront.net,🎥 迪士尼加
+ - DOMAIN,ddzjru7vzfsxo.cloudfront.net,🎥 迪士尼加
+ - DOMAIN,dgel2a5rs1evz.cloudfront.net,🎥 迪士尼加
+ - DOMAIN,logx.optimizely.com,🎥 迪士尼加
+ - DOMAIN,otx.alienvault.com,🎥 迪士尼加
+ - DOMAIN-KEYWORD,dssott,🎥 迪士尼加
+ - DOMAIN-KEYWORD,cws-sjc,🎥 迪士尼加
+ - DOMAIN-KEYWORD,cws-iad,🎥 迪士尼加
+ - DOMAIN-KEYWORD,qwilted-cds-oper,🎥 迪士尼加
+ - IP-CIDR,23.77.71.120/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,23.7.175.250/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,23.46.221.55/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,23.45.60.168/24,🎥 迪士尼加,no-resolve
+#maybe noneed
+ - IP-CIDR,3.22.132.254/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,52.45.209.129/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,52.84.6.105/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,54.168.58.167/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,54.225.169.203/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,54.230.147.124/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,54.239.169.57/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,107.22.233.72/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,117.104.138.129/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,151.205.20.117/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,151.101.229.190/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,152.199.4.254/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,162.247.242.19/24,🎥 迪士尼加,no-resolve
+#maybe noneed2
+ - IP-CIDR,13.227.142.81/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,13.35.153.78/24,🎥 迪士尼加,no-resolve
+ - IP-CIDR,52.84.248.58/24,🎥 迪士尼加,no-resolve
+ - DOMAIN-SUFFIX,akstat.io,🎥 迪士尼加
+#奈飞共用？
+ #- IP-CIDR,137.116.139.120/24,🎥 迪士尼加,no-resolve
+ #- IP-CIDR,13.107.42.23/24,🎥 迪士尼加,no-resolve
+ #- DOMAIN-KEYWORD,elb.amazonaws.com,🎥 迪士尼加,no-resolve
+#聊天社区？
+ - DOMAIN,c.go-mpulse.net,🎥 迪士尼加,no-resolve
