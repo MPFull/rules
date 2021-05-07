@@ -9,7 +9,6 @@ DOMAIN,ddzjru7vzfsxo.cloudfront.net
 DOMAIN,dgel2a5rs1evz.cloudfront.net
 DOMAIN,logx.optimizely.com
 DOMAIN,otx.alienvault.com
-DOMAIN,fls-na.amazon.com
 DOMAIN-KEYWORD,dssott
 DOMAIN-KEYWORD,cws-sjc
 DOMAIN-KEYWORD,cws-iad
@@ -36,6 +35,10 @@ IP-CIDR,162.247.242.19/24,no-resolve
 #maybe noneed2
 IP-CIDR,13.227.142.81/24,no-resolve
 IP-CIDR,13.35.153.78/24,no-resolve
-IP-CIDR,52.84.248.58/24,no-resolve
 DOMAIN-SUFFIX,akstat.io
 DOMAIN,c.go-mpulse.net
+
+# by primevideo too 20210507
+#IP-CIDR,52.84.248.58/24,no-resolve
+#DOMAIN,fls-na.amazon.com
+
