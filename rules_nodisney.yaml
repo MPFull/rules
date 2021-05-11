@@ -1,0 +1,26 @@
+# Apple
+ - DOMAIN,api.smoot.apple.cn,DIRECT
+# 缺货玩意
+ - DOMAIN-SUFFIX,nvidia.com,DIRECT
+# 威联通
+ - DOMAIN-SUFFIX,qnap.com,DIRECT
+# 爱奇艺海外版
+ - IP-CIDR,23.219.172.0/24,DIRECT
+ - IP-CIDR,104.88.70.0/24,DIRECT
+# 海外点卡商城
+ - DOMAIN-SUFFIX,seagm.com,DIRECT
+# LOL
+ - DOMAIN,riotgames.com,DIRECT
+ 
+# TikTok
+# - DOMAIN-SUFFIX,tiktok.com,🇸🇬 狮城节点
+# 京东脚本更新
+ - DOMAIN-SUFFIX,azureedge.net,🇸🇬 狮城节点
+
+# netflix
+ - IP-CIDR,203.75.84.0/24,🎥 奈飞视频,no-resolve
+# - IP-CIDR,35.166.112.0/24,🎥 奈飞视频,no-resolve
+# - IP-CIDR,52.38.7.0/24,🎥 奈飞视频,no-resolve
+#查询你位置的网站
+ - DOMAIN-SUFFIX,api-ipv4.ip.sb,🎥 奈飞视频
+ - IP-CIDR,103.201.128.6/24,🎥 奈飞视频,no-resolve
